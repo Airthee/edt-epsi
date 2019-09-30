@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "name": "edt-epsi",
+  "version": "1.0.0",
+  "description": "Give your EPSI schedule",
+  "main": "src/index.js",
+  "repository": "https://github.com/Airthee/edt-epsi",
+  "author": "Airthee <13355624+Airthee@users.noreply.github.com>",
+  "license": "None"
+}
