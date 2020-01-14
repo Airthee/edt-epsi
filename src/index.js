@@ -3,7 +3,7 @@ import moment from 'moment';
 const url = new URL(window.location.href);
 
 // Retrieve student id and date
-const userId = url.searchParams.get('id') || 'raphael.tison';
+const userId = url.searchParams.get('id') || window.location.pathname.split('/')[1] || 'raphael.tison';
 const date = url.searchParams.get('date') || moment().format('MM/DD/YYYY');
 
 // Make redirection
