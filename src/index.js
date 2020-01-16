@@ -10,3 +10,4 @@ const date = url.searchParams.get('date') || moment().format('MM/DD/YYYY');
 const urlRedirect = `https://edtmobiliteng.wigorservices.net/WebPsDyn.aspx?action=posEDTBEECOME&serverid=C&Tel=${userId}&date=${date}`;
 console.log(`Redirecting to ${urlRedirect}`);
 window.location.href = urlRedirect;
+document.getElementById('info').innerText = 'Redirection en cours...'
